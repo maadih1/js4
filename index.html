@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Todo App</h1>
+        <div class="input-container">
+            <input type="text" id="todo-input" placeholder="What's on your mind?">
+            <button id="add-button">Add New Item</button>
+        </div>
+        <ul id="todo-list"></ul>
+        <button id="delete-all-button">Delete All</button>
+        <div class="history-section">
+            <h2 id="history-heading" style="display: none;">History</h2>
+            <ul id="deleted-list" style="display: none;"></ul>
+            <button id="history-button">History</button>
+            <button id="recovery-button" style="display: none;">Recover</button>
+            <button id="permanently-delete-button" style="display: none;">Permanently Delete</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

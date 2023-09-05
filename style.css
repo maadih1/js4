@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    border-bottom: 2px solid #00b300;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#todo-input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+#add-button {
+    background-color: #00b300;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#add-button:hover {
+    background-color: #008000;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.todo-text {
+    flex-grow: 1;
+    font-size: 18px;
+}
+
+.edit-button, .delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.edit-button:hover {
+    color: #00b300;
+}
+
+.delete-button:hover {
+    color: red;
+}
+
+#delete-all-button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#delete-all-button:hover {
+    background-color: darkred;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9df71; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #0077b6; 
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9df71; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #0077b6; 
+    text-align: center; 
+}
+
+h1 {
+    background-color: #800000; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #888888;
+    display: inline-block; 
+}
+
